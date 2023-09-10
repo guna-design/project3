@@ -1,0 +1,47 @@
+body{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+
+
+
+}
+
+.apidata{
+    
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    padding: 15px;
+    padding-inline: 5pc;
+    background-color: rgb(142, 142, 252);
+}    
+
+.card {
+   
+    margin-top: 120px;
+    margin-left: 100px;
+ width: 400px !important;
+ height: 300px;
+ line-height: 25px;
+border:3px solid black !important;
+background-color: aqua !important;
+box-shadow: 0px 50.660242795944214px 30.301215171813965px 0px #0000001a;
+
+   
+   
+}
+.card-title{
+    line-height: 100px;
+    text-decoration: underline;
+
+}
+.card-body{
+    width: 500px;
+    height: 600px;
+    font-weight: 300px;
+   
+}
