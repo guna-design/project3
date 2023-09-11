@@ -1,10 +1,9 @@
 body{
 
 display: flex;
-flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
-align-items: flex-start;
+
 
 
 
@@ -21,27 +20,30 @@ align-items: flex-start;
 }    
 
 .card {
-   
-    margin-top: 120px;
-    margin-left: 80px;
+position: absolute;
+top: 150px;
  width: 400px !important;
  height: 300px;
  line-height: 25px;
 border:3px solid black !important;
 background-color: aqua !important;
 box-shadow: 0px 50.660242795944214px 30.301215171813965px 0px #0000001a;
-
-   
+margin: 10px;
    
 }
 .card-title{
-    line-height: 100px;
+    line-height:30px;
     text-decoration: underline;
 
 }
+.card-text{
+    align-items: center;
+    font-size: 15px;
+    line-height: 10px;
+}
 .card-body{
     width: 400px;
-    height: 600px;
+    height: 350px;
     font-weight: 300px;
    
 }
